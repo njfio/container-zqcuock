@@ -10,7 +10,7 @@ RUN apt-get update && \
 RUN npm install
 COPY . .
 
-COPY /docker/.env.example .env
+COPY ./docker/.env.example .env
 
 COPY requirements.txt /usr/src/app/
 RUN pip install -U -r requirements.txt
