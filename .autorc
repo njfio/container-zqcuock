@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "git-tag",
+    "all-contributors",
+    "first-time-contributor",
+    "released"
+  ],
+  "owner": "njfio",
+  "repo": "container-zqcuock",
+  "name": "njfio",
+  "email": "nicholas.ferguson@gmail.com",
+}
