@@ -10,7 +10,7 @@ RUN apt-get update && \
 RUN npm install
 COPY . .
 
-COPY ./Flowise/docker/.env.example .env
+COPY ./Flowise-main/docker/.env.example .env
 
 COPY requirements.txt /usr/src/app/
 RUN pip install -U -r requirements.txt
