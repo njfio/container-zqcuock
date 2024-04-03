@@ -4,8 +4,8 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /usr/src/app
 # Clone the repository from GitHub                         
 RUN apt-get update && \                                    
-    apt-get install -y git && \                            
-    git clone https://github.com/FlowiseAI/Flowise.git . 
+RUN apt-get install -y git && \                            
+RUN git clone https://github.com/FlowiseAI/Flowise.git . 
     
 RUN npm install
 COPY . .
